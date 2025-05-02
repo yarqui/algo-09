@@ -24,12 +24,14 @@ This README analyses and compares the performance of two algorithms implemented 
 **Pros**:
   - Extremely fast and simple to implement.
   - Performs well with canonical coin systems like [50, 25, 10, 5, 2, 1].
+
 **Cons**:
   - Fails to guarantee optimality with non-standard coin sets (e.g., [1, 3, 4]).
 
 ### Dynamic Programming
 **Pros**:
   - Always finds the minimal number of coins for **any** coin set.
+  
 **Cons**:
   - Slower, especially for large amounts (e.g., 10,000+), due to time and space complexity.
 
